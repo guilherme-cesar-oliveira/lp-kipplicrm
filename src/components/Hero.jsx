@@ -10,21 +10,26 @@ export default function Hero() {
       <div className="hero__glow" aria-hidden="true" />
 
       <div className="container hero__inner">
-        <span className="eyebrow">CRM &amp; Hub Comercial Completo</span>
+        <span className="eyebrow">CRM &amp; Hub Comercial</span>
 
         <h1 className="hero__title">
-          Transforme seu WhatsApp em um funil de vendas organizado e lucrativo
+          O CRM completo para organizar, automatizar e acelerar suas vendas
         </h1>
 
         <p className="hero__subtitle">
-          Central de atendimento multicanal, CRM Kanban e Agentes de IA em uma única
-          plataforma — para sua equipe vender mais sem deixar nenhum lead esfriar.
+          Centralize clientes, oportunidades, equipes, processos, automações, IA e canais de
+          comunicação em uma única plataforma.
         </p>
 
-        <a href={WHATSAPP_URL} className="btn btn-primary" target="_blank" rel="noreferrer">
-          Testar o Kippli no WhatsApp
-          <ArrowRight size={18} />
-        </a>
+        <div className="hero__actions">
+          <a href={WHATSAPP_URL} className="btn btn-primary" target="_blank" rel="noreferrer">
+            Conhecer o Kippli
+            <ArrowRight size={18} />
+          </a>
+          <a href={WHATSAPP_URL} className="btn btn-outline" target="_blank" rel="noreferrer">
+            Falar com um especialista
+          </a>
+        </div>
 
         <div id="produto" className="hero__mockup">
           <ScreenshotFrame src={dashboardCrm} alt="Dashboard CRM do Kippli, com oportunidades, pipeline e funil de vendas" />

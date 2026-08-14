@@ -1,25 +1,32 @@
 import ScreenshotFrame from './ScreenshotFrame';
-import painelAtendimento from '../assets/screenshots/painel-atendimento.jpeg';
 import pipelineKanban from '../assets/screenshots/pipeline-kanban.jpeg';
+import relatoriosCrm from '../assets/screenshots/relatorios-crm.jpeg';
+import painelAtendimento from '../assets/screenshots/painel-atendimento.jpeg';
 import analiseSentimentos from '../assets/screenshots/analise-sentimentos.jpeg';
 import conectarCanais from '../assets/screenshots/conectar-canais.jpeg';
-import relatoriosCrm from '../assets/screenshots/relatorios-crm.jpeg';
 import './ProductShowcase.css';
 
 const ITEMS = [
-  {
-    title: 'Painel de Atendimento — filas, departamentos e métricas em tempo real',
-    description:
-      'Acompanhe quem está online, em espera ou aguardando resposta por departamento e atendente, sem precisar perguntar no grupo da equipe.',
-    image: painelAtendimento,
-    alt: 'Painel de Atendimento do Kippli com métricas por departamento e por atendente',
-  },
   {
     title: 'Pipeline Kanban visual para cada etapa da venda',
     description:
       'Oportunidades organizadas por funil, com valor previsto, tempo parado e responsável — tudo visível em um quadro só.',
     image: pipelineKanban,
     alt: 'Pipeline Kanban do Kippli com oportunidades organizadas por etapa',
+  },
+  {
+    title: 'Dashboards e indicadores da operação comercial',
+    description:
+      'Total de oportunidades, valor gerado, taxa de conversão e vendas ganhas, comparados por pipeline e por período.',
+    image: relatoriosCrm,
+    alt: 'Tela de Relatórios CRM do Kippli com gráfico de oportunidades por pipeline',
+  },
+  {
+    title: 'Gestão de equipes com filas e métricas em tempo real',
+    description:
+      'Acompanhe quem está online, em espera ou aguardando resposta por departamento e atendente, com controle total da operação.',
+    image: painelAtendimento,
+    alt: 'Painel de Atendimento do Kippli com métricas por departamento e por atendente',
   },
   {
     title: 'A IA lê o tom de cada conversa e calcula a satisfação automaticamente',
@@ -29,18 +36,11 @@ const ITEMS = [
     alt: 'Tela de Análise de Sentimentos do Kippli com percentuais de positivos, neutros e negativos',
   },
   {
-    title: 'Conecte WhatsApp, Instagram, e-mail, Telegram e mais em um só painel',
+    title: 'WhatsApp e outros canais, integrados à sua operação comercial',
     description:
-      'Todas as instâncias e canais concentrados numa única central de atendimento, com filas e departamentos configuráveis.',
+      'Seu WhatsApp faz parte da operação comercial. O Kippli organiza toda a operação, com Instagram, e-mail, Telegram e mais canais no mesmo histórico.',
     image: conectarCanais,
     alt: 'Modal de adicionar nova instância com opções de WhatsApp, Instagram, Messenger, e-mail, WebChat, Telegram e SMS',
-  },
-  {
-    title: 'Relatórios completos por pipeline, com valores e taxa de conversão',
-    description:
-      'Total de oportunidades, valor gerado, taxa de conversão e vendas ganhas, comparados por pipeline e por período.',
-    image: relatoriosCrm,
-    alt: 'Tela de Relatórios CRM do Kippli com gráfico de oportunidades por pipeline',
   },
 ];
 

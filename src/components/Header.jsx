@@ -36,7 +36,7 @@ export default function Header() {
         </nav>
 
         <a href={WHATSAPP_URL} className="btn btn-primary btn-sm" target="_blank" rel="noreferrer">
-          Falar no WhatsApp
+          Falar com um especialista
         </a>
       </div>
     </header>

@@ -6,10 +6,10 @@ export default function FinalCTA() {
     <section className="section final-cta">
       <div className="container">
         <div className="final-cta__card">
-          <h2>Pronto para organizar seu comercial hoje mesmo?</h2>
-          <p>Clique e fale conosco no WhatsApp.</p>
+          <h2>Mais controle sobre sua operação. Mais inteligência para vender.</h2>
+          <p>Fale com um especialista e veja o Kippli organizando sua operação comercial.</p>
           <a href={WHATSAPP_URL} className="btn btn-white" target="_blank" rel="noreferrer">
-            Falar com Consultor no WhatsApp
+            Conhecer o Kippli
           </a>
         </div>
       </div>

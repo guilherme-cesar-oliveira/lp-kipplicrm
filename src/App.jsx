@@ -15,9 +15,9 @@ export default function App() {
       <Header />
       <main>
         <Hero />
-        <ProductShowcase />
         <ComparisonSection />
         <ModulesGrid />
+        <ProductShowcase />
         <MetricsBanner />
         <HowItWorks />
         <FAQ />
