@@ -35,8 +35,9 @@ export default function Header() {
           ))}
         </nav>
 
-        <a href={WHATSAPP_URL} className="btn btn-primary btn-sm" target="_blank" rel="noreferrer">
-          Falar com um especialista
+        <a href={WHATSAPP_URL} className="btn btn-primary btn-sm header-cta" target="_blank" rel="noreferrer">
+          <span className="header-cta__full">Falar com um especialista</span>
+          <span className="header-cta__short">Fale conosco</span>
         </a>
       </div>
     </header>

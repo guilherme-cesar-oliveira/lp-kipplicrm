@@ -32,9 +32,26 @@
   width: auto;
 }
 
+.header-cta__short {
+  display: none;
+}
+
 @media (max-width: 640px) {
   .brand__logo {
-    height: 30px;
+    height: 42px;
+  }
+
+  .header-cta {
+    padding: 8px 14px;
+    font-size: 13px;
+  }
+
+  .header-cta__full {
+    display: none;
+  }
+
+  .header-cta__short {
+    display: inline;
   }
 }
 
