@@ -17,8 +17,8 @@ export default function Hero() {
         </h1>
 
         <p className="hero__subtitle">
-          Centralize clientes, oportunidades, equipes, processos, automações, IA e canais de
-          comunicação em uma única plataforma.
+          Centralize clientes, oportunidades, equipes e processos comerciais, com automações,
+          IA e todos os canais de comunicação em uma única plataforma.
         </p>
 
         <div className="hero__actions">

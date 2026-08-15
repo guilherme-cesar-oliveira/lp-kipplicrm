@@ -5,11 +5,11 @@ export const WHATSAPP_URL = 'https://wa.me/5500000000000';
 export const HERO_HIGHLIGHTS = [
   {
     title: 'CRM Kanban Integrado',
-    description: 'Pipeline visual com todas as oportunidades, produtos e etapas da negociação.',
+    description: 'Pipeline visual com oportunidades, produtos e etapas da negociação, tudo em um só lugar.',
   },
   {
     title: 'Gestão de Clientes & Equipes',
-    description: 'Histórico completo do relacionamento e controle de atividades por atendente.',
+    description: 'Histórico do relacionamento e controle das atividades de cada atendente.',
   },
   {
     title: 'Agentes de IA & Automação',
@@ -21,7 +21,7 @@ export const HERO_HIGHLIGHTS = [
   },
 ];
 
-// Bloco "Muito mais que um CRM" — plataforma como centro da operação comercial
+// Bloco "Muito mais que um CRM": plataforma como centro da operação comercial
 export const MODULES = [
   {
     title: 'CRM e Pipeline',
@@ -31,7 +31,7 @@ export const MODULES = [
   {
     title: 'Atendimento Omnichannel',
     description:
-      'Conecte WhatsApp e outros canais de comunicação ao histórico do relacionamento, organizados por departamento e fila de atendimento.',
+      'Reúna WhatsApp e outros canais de comunicação no mesmo histórico, organizados por departamento e fila de atendimento.',
   },
   {
     title: 'Inteligência Artificial',
@@ -41,12 +41,12 @@ export const MODULES = [
   {
     title: 'Automações',
     description:
-      'Crie fluxos que executam tarefas automaticamente para sua equipe — cadências, triagens e recuperação de oportunidades paradas.',
+      'Crie fluxos automáticos para sua equipe, como cadências, triagens e recuperação de oportunidades paradas.',
   },
   {
     title: 'Gestão de Equipes',
     description:
-      'Distribua oportunidades, acompanhe atividades, filas e tempo de resposta, com controle total da operação por atendente.',
+      'Distribua oportunidades, acompanhe atividades e filas de atendimento e tenha controle total da operação, atendente por atendente.',
   },
   {
     title: 'Dashboards e Indicadores',

@@ -28,8 +28,14 @@
 }
 
 .brand__logo {
-  height: 28px;
+  height: 45px;
   width: auto;
+}
+
+@media (max-width: 640px) {
+  .brand__logo {
+    height: 30px;
+  }
 }
 
 .site-nav {

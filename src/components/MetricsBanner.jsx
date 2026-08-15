@@ -12,8 +12,8 @@ export default function MetricsBanner() {
             <h2>Controle e métricas em tempo real</h2>
             <p>
               Tempo médio de espera, performance individual de cada atendente, gerenciamento de
-              instâncias e relatórios analíticos completos — tudo em um painel só, para decidir
-              com dados, não com achismo.
+              instâncias e relatórios analíticos completos, tudo em um painel só, para decidir
+              com dados e não com achismo.
             </p>
           </div>
           <div className="metrics-banner__visual">

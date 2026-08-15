@@ -10,7 +10,7 @@ const ITEMS = [
   {
     title: 'Pipeline Kanban visual para cada etapa da venda',
     description:
-      'Oportunidades organizadas por funil, com valor previsto, tempo parado e responsável — tudo visível em um quadro só.',
+      'Oportunidades organizadas por funil, com valor previsto, tempo parado e responsável, tudo em um quadro só.',
     image: pipelineKanban,
     alt: 'Pipeline Kanban do Kippli com oportunidades organizadas por etapa',
   },
@@ -38,7 +38,7 @@ const ITEMS = [
   {
     title: 'WhatsApp e outros canais, integrados à sua operação comercial',
     description:
-      'Seu WhatsApp faz parte da operação comercial. O Kippli organiza toda a operação, com Instagram, e-mail, Telegram e mais canais no mesmo histórico.',
+      'Seu WhatsApp faz parte da operação comercial. O Kippli organiza tudo, com Instagram, e-mail, Telegram e outros canais no mesmo histórico.',
     image: conectarCanais,
     alt: 'Modal de adicionar nova instância com opções de WhatsApp, Instagram, Messenger, e-mail, WebChat, Telegram e SMS',
   },
@@ -50,7 +50,7 @@ export default function ProductShowcase() {
       <div className="container">
         <div className="section-head">
           <h2>Veja o Kippli por dentro</h2>
-          <p>Um painel só para atender, vender e acompanhar o resultado — sem planilha, sem ferramenta paralela.</p>
+          <p>Um painel só para atender, vender e acompanhar o resultado, sem planilha e sem ferramenta paralela.</p>
         </div>
 
         <div className="showcase__rows">

@@ -12,8 +12,14 @@
 }
 
 .brand__logo--footer {
-  height: 22px;
+  height: 45px;
   width: auto;
+}
+
+@media (max-width: 640px) {
+  .brand__logo--footer {
+    height: 30px;
+  }
 }
 
 .site-footer__copy {

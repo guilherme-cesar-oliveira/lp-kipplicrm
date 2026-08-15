@@ -8,8 +8,8 @@ export default function ComparisonSection() {
         <div className="section-head">
           <h2>Chega de operação comercial espalhada</h2>
           <p>
-            Clientes em uma planilha, negociações no caderno, conversas soltas no WhatsApp
-            pessoal do vendedor. Sem padrão, sem controle, sem visão do funil — é assim que
+            Clientes em uma planilha, negociações no caderno e conversas soltas no WhatsApp
+            pessoal do vendedor. Sem padrão, sem controle e sem visão do funil. É assim que as
             oportunidades se perdem.
           </p>
         </div>
@@ -20,8 +20,8 @@ export default function ComparisonSection() {
               <X size={14} /> Sem o Kippli
             </span>
             <p>
-              Informações espalhadas em ferramentas separadas. Cada atualização exige registro
-              manual e a operação fica sem histórico nem controle real do funil.
+              Informações espalhadas em várias ferramentas. Toda atualização precisa ser feita
+              na mão, e a operação fica sem histórico nem controle real do funil.
             </p>
           </div>
 
@@ -31,8 +31,8 @@ export default function ComparisonSection() {
             </span>
             <p>
               Clientes, oportunidades, pipeline, equipes, automações, IA e canais de comunicação
-              centralizados em um único ambiente — com controle, histórico e indicadores da
-              operação inteira.
+              centralizados em um único ambiente, com controle, histórico e indicadores de toda
+              a operação.
             </p>
           </div>
         </div>
