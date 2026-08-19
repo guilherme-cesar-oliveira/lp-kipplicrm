@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { WHATSAPP_URL } from '../data/content';
-import logo from '../assets/logo.png';
+import logo from '../assets/logo.svg';
 import './Header.css';
 
 const NAV_LINKS = [
