@@ -1,5 +1,5 @@
 import ScreenshotFrame from './ScreenshotFrame';
-import pipelineKanban from '../assets/screenshots/pipeline-kanban.jpeg';
+import pipelineKanban from '../assets/screenshots/pipeline-kanban.png';
 import relatoriosCrm from '../assets/screenshots/relatorios-crm.png';
 import painelAtendimento from '../assets/screenshots/painel-atendimento.png';
 import analiseSentimentos from '../assets/screenshots/analise-sentimentos.png';
