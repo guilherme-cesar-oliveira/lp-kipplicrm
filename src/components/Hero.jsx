@@ -1,7 +1,7 @@
 import { ArrowRight } from 'lucide-react';
 import { HERO_HIGHLIGHTS, WHATSAPP_URL } from '../data/content';
 import ScreenshotFrame from './ScreenshotFrame';
-import dashboardCrm from '../assets/screenshots/dashboard-crm.jpeg';
+import dashboardCrm from '../assets/screenshots/dashboard-crm.png';
 import './Hero.css';
 
 export default function Hero() {
