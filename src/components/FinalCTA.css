@@ -2,7 +2,7 @@
   text-align: center;
   padding: 64px 32px;
   border-radius: var(--radius-lg);
-  background: linear-gradient(135deg, var(--color-primary), #9257d8);
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
   box-shadow: var(--shadow-md);
 }
 

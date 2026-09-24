@@ -1,9 +1,9 @@
 import ScreenshotFrame from './ScreenshotFrame';
 import pipelineKanban from '../assets/screenshots/pipeline-kanban.jpeg';
-import relatoriosCrm from '../assets/screenshots/relatorios-crm.jpeg';
-import painelAtendimento from '../assets/screenshots/painel-atendimento.jpeg';
-import analiseSentimentos from '../assets/screenshots/analise-sentimentos.jpeg';
-import conectarCanais from '../assets/screenshots/conectar-canais.jpeg';
+import relatoriosCrm from '../assets/screenshots/relatorios-crm.png';
+import painelAtendimento from '../assets/screenshots/painel-atendimento.png';
+import analiseSentimentos from '../assets/screenshots/analise-sentimentos.png';
+import conectarCanais from '../assets/screenshots/conectar-canais.png';
 import './ProductShowcase.css';
 
 const ITEMS = [

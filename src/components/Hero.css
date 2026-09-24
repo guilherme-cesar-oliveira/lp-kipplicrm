@@ -2,7 +2,7 @@
   position: relative;
   overflow: hidden;
   padding: 88px 0 40px;
-  background: linear-gradient(180deg, #fbf9ff 0%, #ffffff 60%);
+  background: linear-gradient(180deg, #f8f5fd 0%, #ffffff 60%);
 }
 
 .hero__glow {
@@ -12,7 +12,7 @@
   transform: translateX(-50%);
   width: 900px;
   height: 500px;
-  background: radial-gradient(closest-side, rgba(120, 56, 192, 0.16), transparent);
+  background: radial-gradient(closest-side, rgba(67, 46, 111, 0.16), transparent);
   pointer-events: none;
 }
 
@@ -69,7 +69,7 @@
   width: 28px;
   height: 3px;
   border-radius: var(--radius-pill);
-  background: var(--color-primary);
+  background: var(--color-accent);
   margin-bottom: 12px;
 }
 

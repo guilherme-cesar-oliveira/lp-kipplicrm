@@ -7,14 +7,14 @@
   grid-template-columns: 0.9fr 1.1fr;
   align-items: center;
   gap: 48px;
-  background: var(--color-dark);
+  background: var(--color-primary);
   border-radius: var(--radius-lg);
   padding: 56px;
 }
 
 .eyebrow--dark {
   background: rgba(255, 255, 255, 0.1);
-  color: #fff;
+  color: var(--color-accent);
 }
 
 .metrics-banner__text h2 {

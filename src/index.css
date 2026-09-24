@@ -8,10 +8,11 @@
 
 :root {
   /* Brand */
-  --color-primary: #7838c0;
-  --color-primary-dark: #5f2ba0;
-  --color-primary-light: #9257d8;
-  --color-accent-pink: #d058d0;
+  --color-primary: #432e6f;
+  --color-primary-dark: #2f1f51;
+  --color-primary-light: #5f4794;
+  --color-accent: #fea003;
+  --color-accent-dark: #e08e00;
 
   /* Data / status accents (sampled from product screenshots) */
   --color-success: #18a048;
@@ -21,17 +22,17 @@
   --color-warning: #e8a030;
 
   /* Dark surface */
-  --color-dark: #201828;
-  --color-dark-soft: #2c2236;
+  --color-dark: #2a1d47;
+  --color-dark-soft: #372759;
 
   /* Neutrals */
-  --color-ink: #16121d;
+  --color-ink: #1e1633;
   --color-body: #4a4552;
   --color-muted: #8a8494;
   --color-border: #e7e2ee;
   --color-surface: #ffffff;
   --color-surface-alt: #f8f8fa;
-  --color-tint: #f8f3ff;
+  --color-tint: #f3effa;
 
   /* Typography */
   --font-display: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
@@ -44,7 +45,7 @@
   --radius-lg: 24px;
   --radius-pill: 999px;
   --shadow-sm: 0 1px 2px rgba(22, 18, 29, 0.06), 0 1px 1px rgba(22, 18, 29, 0.04);
-  --shadow-md: 0 12px 32px -12px rgba(120, 56, 192, 0.22);
+  --shadow-md: 0 12px 32px -12px rgba(67, 46, 111, 0.22);
   --shadow-lg: 0 24px 60px -20px rgba(32, 24, 40, 0.35);
 }
 
@@ -167,13 +168,13 @@ button {
 }
 
 .btn-primary {
-  background: var(--color-primary);
-  color: #fff;
-  box-shadow: var(--shadow-md);
+  background: var(--color-accent);
+  color: #000;
+  box-shadow: 0 12px 32px -12px rgba(254, 160, 3, 0.55);
 }
 
 .btn-primary:hover {
-  background: var(--color-primary-dark);
+  background: var(--color-accent-dark);
 }
 
 .btn-white {
@@ -182,7 +183,7 @@ button {
 }
 
 .btn-white:hover {
-  background: #f3ecff;
+  background: #f3effa;
 }
 
 .btn-outline {

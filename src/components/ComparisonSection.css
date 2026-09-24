@@ -15,7 +15,7 @@
 
 .compare-card--highlight {
   background: var(--color-tint);
-  border-color: rgba(120, 56, 192, 0.35);
+  border-color: rgba(67, 46, 111, 0.35);
   box-shadow: var(--shadow-md);
 }
 

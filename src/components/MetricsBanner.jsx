@@ -1,5 +1,5 @@
 import ScreenshotFrame from './ScreenshotFrame';
-import homeOverview from '../assets/screenshots/home-overview.jpeg';
+import homeOverview from '../assets/screenshots/home-overview.png';
 import './MetricsBanner.css';
 
 export default function MetricsBanner() {

@@ -8,7 +8,7 @@ export default function FinalCTA() {
         <div className="final-cta__card">
           <h2>Mais controle sobre sua operação. Mais inteligência para vender.</h2>
           <p>Fale com um especialista e veja o Kippli organizando sua operação comercial.</p>
-          <a href={WHATSAPP_URL} className="btn btn-white" target="_blank" rel="noreferrer">
+          <a href={WHATSAPP_URL} className="btn btn-primary" target="_blank" rel="noreferrer">
             Conhecer o Kippli
           </a>
         </div>
